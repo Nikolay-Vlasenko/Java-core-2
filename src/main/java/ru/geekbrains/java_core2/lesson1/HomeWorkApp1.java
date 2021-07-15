@@ -24,6 +24,8 @@ public class HomeWorkApp1 {
                 new Treadmill(500),
                 new Wall(50)
         };
+        //У меня почему-то не все выполняют задание, почему?
+//        Как остановить прохождение препятсвия, если не смог пройти?
         for (Movin movin : movins) {
             for (Obstaclable obstaclable : obstaclables) {
                 movin.run(obstaclable.getLength());
@@ -31,16 +33,7 @@ public class HomeWorkApp1 {
             }
         }
 
-        }
-
-
-
-
-
-
-
-
-
+    }
 
 }
 
