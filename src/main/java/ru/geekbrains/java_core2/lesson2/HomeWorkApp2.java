@@ -22,7 +22,7 @@ public class HomeWorkApp2 {
 
 
     public static int testMyArray (String [][] array) throws MyArraySizeException, MyArrayDataException {
-        int count = -41;
+        int count = 3;
         if (array.length != 4) {
             throw new MyArraySizeException();
         }
